@@ -2,13 +2,14 @@
 using namespace std;
 
 int main() {
-    cout << "hello everyone this is shubham" << endl;
-    int age = 25;
-    char grade = 'A';
-    float PI = 3.14f;
-    double price = 100.99;
-    cout << age << endl;
-    cout << grade << endl ;
-    cout << PI << endl ;
+    int a = 10, b = 12;
+    int sum = a + b ;
+    cout << sum << endl;
+    cout << ( 5+10 )<< endl;
+    cout << ( 5-10 )<< endl;
+    cout << ( 5*10 )<< endl;
+    cout << ( 5/10 )<< endl;
+    cout << ( 5%10 )<< endl;
+    cout << ( 5/ (double) 10 )<< endl;
     return 0;
 }
